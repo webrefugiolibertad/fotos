@@ -1,0 +1,28 @@
+/* Your custom styles goes here */
+
+:root {
+    --text-color-primary: #fff;
+    --text-color-light: #a0a0a0;
+    --text-color-hover: #FCFCEF;
+  }
+  
+  body {
+    background: #121212;
+    color: var(--text-color-primary);
+  }
+  
+  h1, h2, h3, h4, header h1 a{
+      color: var(--text-color-primary);
+  }
+  
+  a, h1 a, h2 a, h3 a, h4 a {
+    color: var(--text-color-light);
+  }
+  
+  footer {
+    color: var(--text-color-light);
+  }
+  
+  footer a {
+    color: var(--text-color-hover);
+  }
